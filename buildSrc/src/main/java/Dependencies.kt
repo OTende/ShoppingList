@@ -10,6 +10,8 @@ object Dependencies {
     val roomCompiler by lazy { "androidx.room:room-compiler:${Versions.room}" }
     val hilt by lazy { "com.google.dagger:hilt-android:${Versions.hilt}" }
     val hiltCompiler by lazy { "com.google.dagger:hilt-compiler:${Versions.hilt}" }
+    val fragmentKtx by lazy { "androidx.fragment:fragment-ktx:${Versions.fragmentKtx}" }
+    val viewModel by lazy { "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.viewModel}" }
 
     object Test {
         val junit by lazy { "junit:junit:${Versions.junit}" }

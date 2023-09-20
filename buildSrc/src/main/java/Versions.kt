@@ -8,6 +8,8 @@ object Versions {
     const val retrofit = "2.9.0"
     const val room = "2.5.2"
     const val hilt = "2.44"
+    const val fragmentKtx = "1.6.1"
+    const val viewModel = "2.6.2"
 
     const val junit = "4.13.2"
     const val extJunit = "1.1.5"
